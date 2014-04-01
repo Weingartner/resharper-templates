@@ -1,0 +1,71 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/CustomProperties/=FileName/@EntryIndexedValue">Immutable</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Description/@EntryValue">An immutable object</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=CLASS/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Text/@EntryValue">using ReactiveUI.Ext&#xD;
+using System;&#xD;
+using System.Collections.Generic;&#xD;
+using System.Runtime.Serialization;&#xD;
+using Weingartner.Lens;&#xD;
+using System.Linq;&#xD;
+&#xD;
+namespace $NAMESPACE$ {&#xD;
+&#xD;
+    [DataContract(Name="$CLASS$", Namespace="http://weingartner.com/")]&#xD;
+    class $CLASS$ : Immutable, IEquatable&lt;$CLASS$&gt; {&#xD;
+&#xD;
+        public static $CLASS$ Default { get; private set; }&#xD;
+&#xD;
+        private $CLASS$(){}&#xD;
+&#xD;
+        static $CLASS$() {&#xD;
+            Default = new $CLASS${};&#xD;
+        }&#xD;
+&#xD;
+        #region equality&#xD;
+        public static bool operator ==( $CLASS$ a, $CLASS$ b )&#xD;
+        {&#xD;
+            return System.Object.ReferenceEquals(a, b) || a.Equals(b);&#xD;
+        }&#xD;
+&#xD;
+        public static bool operator !=($CLASS$ a, $CLASS$ b )&#xD;
+        {&#xD;
+            return !( a == b );&#xD;
+        }&#xD;
+&#xD;
+        public override bool Equals( object obj )&#xD;
+        {&#xD;
+            if ( obj == null || GetType() != obj.GetType() )&#xD;
+            {&#xD;
+                return false;&#xD;
+            }&#xD;
+            var t = obj as $CLASS$;&#xD;
+            return ( t != null ) &amp;&amp; this.Equals(t);&#xD;
+        }&#xD;
+&#xD;
+        public bool Equals( $CLASS$ other )&#xD;
+        {&#xD;
+            return DataContractEqualityComparer&lt;$CLASS$&gt;.Default.Equals(this, other);&#xD;
+        }&#xD;
+&#xD;
+        public override int GetHashCode()&#xD;
+        {&#xD;
+            return DataContractEqualityComparer&lt;$CLASS$&gt;.Default.GetHashCode(this);&#xD;
+        }&#xD;
+        #endregion&#xD;
+&#xD;
+    }&#xD;
+}</s:String></wpf:ResourceDictionary>
