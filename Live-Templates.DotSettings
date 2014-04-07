@@ -14,7 +14,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0D106C29D44928499F9BC6F62FF331DF/Shortcut/@EntryValue">ruivp</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0D106C29D44928499F9BC6F62FF331DF/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0D106C29D44928499F9BC6F62FF331DF/Text/@EntryValue">$type$ _$name$;&#xD;
-public $name$ Busy&#xD;
+public $type$ $name$&#xD;
 {&#xD;
     get { return _$name$; }&#xD;
     set { ValidateRaiseAndSetIfChanged(ref _$name$, value); }&#xD;
