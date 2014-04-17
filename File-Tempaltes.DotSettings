@@ -170,7 +170,7 @@ namespace $namespace$&#xD;
     &lt;w:$base$Base.Resources&gt;&#xD;
         &lt;ResourceDictionary &gt;&#xD;
             &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
-                &lt;ResourceDictionary Source="../Themes/Generic.xaml"/&gt;&#xD;
+                &lt;ResourceDictionary Source="/Themes/Generic.xaml"/&gt;&#xD;
             &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
         &lt;/ResourceDictionary&gt;&#xD;
     &lt;/w:$base$Base.Resources&gt;&#xD;
