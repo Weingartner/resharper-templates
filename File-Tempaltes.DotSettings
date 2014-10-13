@@ -213,7 +213,7 @@ Console.WriteLine("$TEXT$ took {0}", $s$.ElapsedMilliseconds);</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=FileName/@EntryIndexedValue">PluginDocument</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=FileName/@EntryIndexedValue">bPluginDocument</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Description/@EntryValue">WeinCadPlugin.Document</s:String>
 	
@@ -411,7 +411,7 @@ namespace WeinCad.Plugin.ScrewGrinder&#xD;
             // you will have to register it with the plugin.BindFolderTypes&#xD;
             // method&#xD;
             plugin.BindDocumentFactoryToFolder&lt;$documentClass$Factory,TODO&gt;();&#xD;
-            BindDocumentTypes(typeof ($documentClass$));&#xD;
+            plugin.BindDocumentTypes(typeof ($documentClass$));&#xD;
 &#xD;
             plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
                 .To&lt;$documentClass$PropertiesView&gt;()&#xD;
@@ -466,6 +466,7 @@ namespace WeinCad.Plugin.ScrewGrinder&#xD;
     }&#xD;
 &#xD;
     &#xD;
+    [DataContract]&#xD;
     public class $documentClass$Configuration : Immutable&#xD;
     {&#xD;
         private $documentClass$Configuration()&#xD;
