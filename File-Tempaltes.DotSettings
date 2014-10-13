@@ -209,4 +209,278 @@ namespace $namespace$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0AD6FB29C16743B3D8BA998D7CEF3F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0AD6FB29C16743B3D8BA998D7CEF3F/Text/@EntryValue">var $s$ = Stopwatch.StartNew();&#xD;
 $SELECTION$&#xD;
-Console.WriteLine("$TEXT$ took {0}", $s$.ElapsedMilliseconds);</s:String></wpf:ResourceDictionary>
+Console.WriteLine("$TEXT$ took {0}", $s$.ElapsedMilliseconds);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=FileName/@EntryIndexedValue">PluginDocument</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Description/@EntryValue">WeinCadPlugin.Document</s:String>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=documentClass/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=documentClass/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=documentClass/Order/@EntryValue">0</s:Int64>
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=guid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=guid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=guid/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=namespace/InitialRange/@EntryValue">-1</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=namespace/InitialSection/@EntryValue">6F8E5984F261094CB8FB199DD32A86C5</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Field/=namespace/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=3309BCF5E7ACE6439B4FBB51EAA889EB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=3309BCF5E7ACE6439B4FBB51EAA889EB/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$PropertiesView.xaml.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=3309BCF5E7ACE6439B4FBB51EAA889EB/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=3309BCF5E7ACE6439B4FBB51EAA889EB/Order/@EntryValue">1</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=3309BCF5E7ACE6439B4FBB51EAA889EB/SectionPlain/Text/@EntryValue">&#xD;
+using ReactiveUI;&#xD;
+&#xD;
+namespace $namespace$&#xD;
+{&#xD;
+    public class $documentClass$PropertiesViewBase : ReactiveUserControl&lt;$documentClass$&gt;&#xD;
+    {&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Interaction logic for $documentClass$PropertiesView.xaml&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public partial class $documentClass$PropertiesView : $documentClass$PropertiesViewBase&#xD;
+    {&#xD;
+        public $documentClass$PropertiesView()&#xD;
+        {&#xD;
+            InitializeComponent();&#xD;
+        }&#xD;
+    }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=333B90BB2958F544B0F4811D0AF0E1B5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=333B90BB2958F544B0F4811D0AF0E1B5/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$DetailsView.xaml.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=333B90BB2958F544B0F4811D0AF0E1B5/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=333B90BB2958F544B0F4811D0AF0E1B5/Order/@EntryValue">3</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=333B90BB2958F544B0F4811D0AF0E1B5/SectionPlain/Text/@EntryValue">using ReactiveUI;&#xD;
+&#xD;
+namespace $namespace$&#xD;
+{&#xD;
+    public class $documentClass$DetailsViewBase : ReactiveUserControl&lt;$documentClass$&gt;&#xD;
+    {&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Interaction logic for $documentClass$DetailsView.xaml&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public partial class $documentClass$DetailsView : $documentClass$DetailsViewBase&#xD;
+    {&#xD;
+        public $documentClass$DetailsView()&#xD;
+        {&#xD;
+            InitializeComponent();&#xD;
+        }&#xD;
+    }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=6F8E5984F261094CB8FB199DD32A86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=6F8E5984F261094CB8FB199DD32A86C5/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$PropertiesView.xaml" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=6F8E5984F261094CB8FB199DD32A86C5/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=6F8E5984F261094CB8FB199DD32A86C5/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=6F8E5984F261094CB8FB199DD32A86C5/SectionPlain/Text/@EntryValue">&#xD;
+&lt;l:$documentClass$PropertiesViewBase x:Class="$namespace$.$documentClass$PropertiesView"&#xD;
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&#xD;
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&#xD;
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"&#xD;
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"&#xD;
+         xmlns:c="clr-namespace:Weingartner.Controls;assembly=Weingartner.Controls"&#xD;
+         xmlns:l="clr-namespace:$namespace$"&#xD;
+         mc:Ignorable="d"&#xD;
+         d:DesignHeight="300" d:DesignWidth="300"&#xD;
+         d:DataContext="{d:DesignInstance l:$documentClass$, d:IsDesignTimeCreatable=True}"&gt;&#xD;
+&#xD;
+    &lt;UserControl.Resources&gt;&#xD;
+        &lt;ResourceDictionary&gt;&#xD;
+            &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
+                &lt;ResourceDictionary Source="Themes/Generic.xaml" /&gt;&#xD;
+            &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
+        &lt;/ResourceDictionary&gt;&#xD;
+    &lt;/UserControl.Resources&gt;&#xD;
+&#xD;
+    &lt;StackPanel Grid.IsSharedSizeScope="True" &gt;&#xD;
+        &lt;c:Row.ColumnDefinitions&gt;&#xD;
+            &lt;ColumnDefinition Width="auto" /&gt;&#xD;
+            &lt;ColumnDefinition MinWidth="100" Width="*" /&gt;&#xD;
+            &lt;ColumnDefinition MinWidth="100" Width="*" /&gt;&#xD;
+        &lt;/c:Row.ColumnDefinitions&gt;&#xD;
+        &lt;c:Row Background="MediumSlateBlue"&gt;&#xD;
+            &lt;Label&gt;Properties&lt;/Label&gt;&#xD;
+        &lt;/c:Row&gt;&#xD;
+        &lt;c:Row&gt; &#xD;
+            &lt;Label Content="Foo" /&gt;&#xD;
+            &lt;TextBox Text="Bar" /&gt;&#xD;
+        &lt;/c:Row&gt;&#xD;
+    &lt;/StackPanel&gt;&#xD;
+&lt;/l:$documentClass$PropertiesViewBase&gt;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=AE7765526A8397489B2D723A1E966517/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=AE7765526A8397489B2D723A1E966517/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$DetailsView.xaml" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=AE7765526A8397489B2D723A1E966517/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=AE7765526A8397489B2D723A1E966517/Order/@EntryValue">2</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Section/=AE7765526A8397489B2D723A1E966517/SectionPlain/Text/@EntryValue">&lt;l:$documentClass$DetailsViewBase x:Class="$namespace$.$documentClass$DetailsView"&#xD;
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&#xD;
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&#xD;
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"&#xD;
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"&#xD;
+         xmlns:c="clr-namespace:Weingartner.Controls;assembly=Weingartner.Controls"&#xD;
+         xmlns:l="clr-namespace:$namespace$"&#xD;
+         mc:Ignorable="d"&#xD;
+         d:DesignHeight="300" d:DesignWidth="300"&#xD;
+         d:DataContext="{d:DesignInstance l:$documentClass$, d:IsDesignTimeCreatable=True}"&gt;&#xD;
+&#xD;
+    &lt;UserControl.Resources&gt;&#xD;
+        &lt;ResourceDictionary&gt;&#xD;
+            &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
+                &lt;ResourceDictionary Source="Themes/Generic.xaml" /&gt;&#xD;
+            &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
+        &lt;/ResourceDictionary&gt;&#xD;
+    &lt;/UserControl.Resources&gt;&#xD;
+&#xD;
+    &lt;StackPanel Grid.IsSharedSizeScope="True" &gt;&#xD;
+        &lt;c:Row.ColumnDefinitions&gt;&#xD;
+            &lt;ColumnDefinition Width="auto" /&gt;&#xD;
+            &lt;ColumnDefinition MinWidth="100" Width="*" /&gt;&#xD;
+            &lt;ColumnDefinition MinWidth="100" Width="*" /&gt;&#xD;
+        &lt;/c:Row.ColumnDefinitions&gt;&#xD;
+        &lt;c:Row Background="MediumSlateBlue"&gt;&#xD;
+            &lt;Label&gt;Details&lt;/Label&gt;&#xD;
+        &lt;/c:Row&gt;&#xD;
+        &lt;c:Row&gt;&#xD;
+            &lt;Label Content="Foo" /&gt;&#xD;
+            &lt;TextBox Text="Bar" /&gt;&#xD;
+        &lt;/c:Row&gt;&#xD;
+    &lt;/StackPanel&gt;&#xD;
+&lt;/l:$documentClass$DetailsViewBase&gt;&#xD;
+</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB6D38802288D84BB8AF350C9BBB1212/Text/@EntryValue">using System.Collections.Generic;&#xD;
+using System.Runtime.Serialization;&#xD;
+using devDept.Geometry;&#xD;
+using ReactiveUI.Ext;&#xD;
+using Weingartner.Controls.PluginFramework;&#xD;
+using Weingartner.Lens;&#xD;
+using Weingartner.Utils;&#xD;
+using System.Runtime.InteropServices;&#xD;
+using System.Reactive.Linq;&#xD;
+using ReactiveUI;&#xD;
+&#xD;
+namespace WeinCad.Plugin.ScrewGrinder&#xD;
+{&#xD;
+    &#xD;
+    [Guid("$guid$")]&#xD;
+    public class $documentClass$ : WeinCadDocumentBase&lt;$documentClass$, $documentClass$Configuration, $documentClass$Artifact&gt;&#xD;
+    {&#xD;
+&#xD;
+        /// &#xD;
+        /// Call this method from Plugin.cs to register all the views and types &#xD;
+        /// to the plugin system&#xD;
+        ///&#xD;
+        internal static void Setup(WeinCadPluginBase plugin) {&#xD;
+&#xD;
+            // Pick an existing folder and replace TODO with it. You&#xD;
+            // may have to add a reference to the plugin that defines&#xD;
+            // the folder type. If you wish to create a new folder then&#xD;
+            // you will have to register it with the plugin.BindFolderTypes&#xD;
+            // method&#xD;
+            plugin.BindDocumentFactoryToFolder&lt;$documentClass$Factory,TODO&gt;();&#xD;
+            BindDocumentTypes(typeof ($documentClass$));&#xD;
+&#xD;
+            plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
+                .To&lt;$documentClass$PropertiesView&gt;()&#xD;
+                .InSingletonScope()&#xD;
+                .Named("Properties");&#xD;
+&#xD;
+            plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
+                .To&lt;$documentClass$DetailsView&gt;()&#xD;
+                .InSingletonScope()&#xD;
+                .Named("Details");&#xD;
+        }&#xD;
+&#xD;
+        public $documentClass$(IWeinCadDocumentStorage storage, IIOService io) : base(storage, io)&#xD;
+        {&#xD;
+            ConfigurationData = null;&#xD;
+        }&#xD;
+&#xD;
+        public override Tagged&lt;string,object&gt; PropertiesViewModel { get { return this.TagAsProperties(this); }}&#xD;
+&#xD;
+        public override Tagged&lt;string, object&gt; DetailViewModel { get { return this.TagAsDetails(this); }}&#xD;
+&#xD;
+        public override void Activate()&#xD;
+        {&#xD;
+            // Generate your artifacts here based on other data using &#xD;
+            //&#xD;
+            //      this.WhenAnyArtifact&#xD;
+            //      this.DocumentsByArtifactType&#xD;
+            //&#xD;
+            ArtifactGenerator = Observable.Never&lt;ICancellableLazyTask&lt;$documentClass$Artifact&gt;&gt;();&#xD;
+        }&#xD;
+    }&#xD;
+&#xD;
+    public class $documentClass$Factory :&#xD;
+        WeinCadDocumentFactoryBase&lt;$documentClass$, $documentClass$Factory&gt;&#xD;
+    {&#xD;
+        public $documentClass$Factory(IWeinCadDocumentStorage storage, IIOService io) : base(storage, io)&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+        public override string Name&#xD;
+        {&#xD;
+            get&#xD;
+            {&#xD;
+                return "$documentClass$";&#xD;
+            }&#xD;
+        }&#xD;
+&#xD;
+        public override IWeinCadDocument Add()&#xD;
+        {&#xD;
+            return new $documentClass$(Storage, IO) { ConfigurationData = $documentClass$Configuration.Default };&#xD;
+        }&#xD;
+    }&#xD;
+&#xD;
+    &#xD;
+    public class $documentClass$Configuration : Immutable&#xD;
+    {&#xD;
+        private $documentClass$Configuration()&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+        public static readonly $documentClass$Configuration Default = new $documentClass$Configuration();&#xD;
+&#xD;
+        /* TODO Use resharper to implement equality. Failure to do this will result in errors in the system */&#xD;
+&#xD;
+        [DataMember]&#xD;
+        public double A { get; private set; }&#xD;
+    }&#xD;
+&#xD;
+    public class $documentClass$Artifact {&#xD;
+    }&#xD;
+}&#xD;
+</s:String></wpf:ResourceDictionary>
