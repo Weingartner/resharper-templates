@@ -376,7 +376,7 @@ namespace $namespace$&#xD;
             }&#xD;
         }&#xD;
 &#xD;
-        public override IWeinCadDocument Add()&#xD;
+        public override IWeinCadDocument Add(IWeinCadTreeNode parent)&#xD;
         {&#xD;
             return new $documentClass$(IO) { ConfigurationData = $documentClass$Configuration.Default };&#xD;
         }&#xD;
