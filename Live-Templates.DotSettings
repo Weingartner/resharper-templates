@@ -357,7 +357,7 @@ namespace $namespace$&#xD;
             //      this.WhenAnyArtifact&#xD;
             //      this.DocumentsByArtifactType&#xD;
             //&#xD;
-            ArtifactGenerator = Observable.Never&lt;ICancellableLazyTask&lt;$documentClass$Artifact&gt;&gt;();&#xD;
+            ArtifactGenerator = Observable.Never&lt;ILazyTask&lt;$documentClass$Artifact&gt;&gt;();&#xD;
         }&#xD;
     }&#xD;
 &#xD;
