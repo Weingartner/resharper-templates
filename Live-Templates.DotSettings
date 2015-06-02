@@ -402,6 +402,7 @@ namespace $namespace$&#xD;
 &#xD;
     &#xD;
     [DataContract]&#xD;
+    [Migratable("&lt;&lt;replace me with the value the compiler tells you to&gt;&gt;")]&#xD;
     public class $documentClass$Configuration : Immutable&#xD;
     {&#xD;
         private $documentClass$Configuration()&#xD;
