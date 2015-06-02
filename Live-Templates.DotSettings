@@ -424,6 +424,18 @@ namespace $namespace$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=723E3393EDE1854BABA9BC9FA3A1F270/Text/@EntryValue">new Assembly()&#xD;
     .$Add$($args$)&#xD;
     .View();</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Description/@EntryValue">i18n xaml binder</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Field/=path/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Field/=path/Expression/@EntryValue">completeSmart()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Field/=path/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Scope/=AD41E18405A7FF4682F040638EE2663C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Scope/=AD41E18405A7FF4682F040638EE2663C/Type/@EntryValue">InXmlFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Shortcut/@EntryValue">t9n</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7460B2D7F6122C4BBF3B0E074D04F19A/Text/@EntryValue">{Binding Source={StaticResource T9N}, Path=$path$}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D3A50FCD664A74E994A4852ECBE7B2F/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D3A50FCD664A74E994A4852ECBE7B2F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D3A50FCD664A74E994A4852ECBE7B2F/Description/@EntryValue">ReactiveUI ImmutableProperty</s:String>
