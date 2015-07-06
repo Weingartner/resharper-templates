@@ -160,6 +160,7 @@ public $type$ $name$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Categories/=Imported_00206_002F2_002F2015/@EntryIndexedValue">Imported 6/2/2015</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Categories/=Imported_00207_002F6_002F2015/@EntryIndexedValue">Imported 7/6/2015</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=FileName/@EntryIndexedValue">PluginDocument</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
@@ -302,23 +303,20 @@ namespace $namespace$&#xD;
 </s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Text/@EntryValue">using System;&#xD;
-using System.Collections.Generic;&#xD;
-using System.Runtime.Serialization;&#xD;
-using devDept.Geometry;&#xD;
-using ReactiveUI.Ext;&#xD;
-using Weingartner.Controls.PluginFramework;&#xD;
-using Weingartner.Lens;&#xD;
-using Weingartner.Utils;&#xD;
 using System.Runtime.InteropServices;&#xD;
-using System.Reactive.Linq;&#xD;
+using System.Runtime.Serialization;&#xD;
 using System.Threading;&#xD;
 using System.Threading.Tasks;&#xD;
-using ReactiveUI;&#xD;
 using FluentValidation;&#xD;
+using Ninject.Syntax;&#xD;
+using ReactiveUI;&#xD;
+using ReactiveUI.Ext;&#xD;
+using Weingartner.Controls.PluginFramework;&#xD;
+using Weingartner.Json.Migration;&#xD;
+using Weingartner.Lens;&#xD;
 &#xD;
 namespace $namespace$&#xD;
 {&#xD;
-    &#xD;
     [Guid("$guid$")]&#xD;
     public class $documentClass$ : WeinCadDocumentBase&lt;$documentClass$, $documentClass$Configuration&gt;&#xD;
     {&#xD;
@@ -327,15 +325,11 @@ namespace $namespace$&#xD;
         /// Call this method from Plugin.cs to register all the views and types &#xD;
         /// to the plugin system&#xD;
         ///&#xD;
-        internal static void Setup(WeinCadPluginBase plugin) {&#xD;
-&#xD;
-            // Pick an existing folder and replace TODO with it. You&#xD;
-            // may have to add a reference to the plugin that defines&#xD;
-            // the folder type. If you wish to create a new folder then&#xD;
-            // you will have to register it with the plugin.BindFolderTypes&#xD;
-            // method&#xD;
-            plugin.BindDocumentFactoryToFolder&lt;$documentClass$Factory,TODO&gt;();&#xD;
-            plugin.BindDocumentTypes(typeof ($documentClass$));&#xD;
+        internal static void Setup(WeinCadPluginBase plugin)&#xD;
+        {&#xD;
+            plugin.BindFactoryToFactoryContainer&lt;$documentClass$Factory, SomeProjectNodeFactoryGroup&gt;();&#xD;
+            //plugin.BindFactoryToProjectNode&lt;$documentClass$Factory, SomeDocument&gt;();&#xD;
+            //plugin.BindFactoryToProjectRoot&lt;$documentClass$Factory&gt;();&#xD;
 &#xD;
             plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
                 .To&lt;$documentClass$PropertiesView&gt;()&#xD;
@@ -380,26 +374,13 @@ namespace $namespace$&#xD;
     }&#xD;
 &#xD;
     public class $documentClass$Factory :&#xD;
-        WeinCadDocumentFactoryBase&lt;$documentClass$, $documentClass$Factory&gt;&#xD;
+        StandardProjectNodeFactory&lt;$documentClass$, $documentClass$Factory&gt;&#xD;
     {&#xD;
-        public $documentClass$Factory(IWeinCadProject storage, IIOService io, INavigationController nav) : base(storage, io, nav)&#xD;
+        public $documentClass$Factory(IIOService io, INavigationController nav, IResolutionRoot kernel)&#xD;
+            : base(io, nav, kernel, Properties.Resources.Instance.$documentClass$, 0)&#xD;
         {&#xD;
-        }&#xD;
-&#xD;
-        public override string Name&#xD;
-        {&#xD;
-            get&#xD;
-            {&#xD;
-                return "$documentClass$";&#xD;
-            }&#xD;
-        }&#xD;
-&#xD;
-        public override IWeinCadDocument Add(IWeinCadTreeNode parent)&#xD;
-        {&#xD;
-            return new $documentClass$(IO, NavigationController) { ConfigurationData = $documentClass$Configuration.Default };&#xD;
         }&#xD;
     }&#xD;
-&#xD;
     &#xD;
     [DataContract]&#xD;
     [Migratable("&lt;&lt;replace me with the value the compiler tells you to&gt;&gt;")]&#xD;
@@ -418,8 +399,6 @@ namespace $namespace$&#xD;
         [DataMember]&#xD;
         public double SomeValue { get; private set; }&#xD;
     }&#xD;
-&#xD;
-&#xD;
 }&#xD;
 </s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=723E3393EDE1854BABA9BC9FA3A1F270/@KeyIndexDefined">True</s:Boolean>
