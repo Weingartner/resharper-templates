@@ -451,6 +451,29 @@ namespace $namespace$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D3A50FCD664A74E994A4852ECBE7B2F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7D3A50FCD664A74E994A4852ECBE7B2F/Text/@EntryValue">[DataMember]&#xD;
 public $type$ $NAME${get; private set;}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Description/@EntryValue">lazy property</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Field/=name/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Field/=type/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Field/=type/Expression/@EntryValue">completeType("")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Field/=type/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Shortcut/@EntryValue">lazyp</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=83C394E020F9874497B847CCE4110477/Text/@EntryValue">private static $type$ Create$name$(){&#xD;
+	throw NotImplementedException();&#xD;
+}&#xD;
+private readonly Lazy&lt;$type$&gt; _$name$ = new Lazy&lt;$type$&gt;(Create$name$);&#xD;
+public $type$ $name$ {&#xD;
+	get { return _$name$.Value; }&#xD;
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8832B71336897F49BF813E5484F91C61/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8832B71336897F49BF813E5484F91C61/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8832B71336897F49BF813E5484F91C61/CustomProperties/=Extension/@EntryIndexedValue">xaml</s:String>
@@ -528,6 +551,107 @@ namespace $namespace$&#xD;
     &lt;Grid&gt;&#xD;
     &lt;/Grid&gt;&#xD;
 &lt;/w:$base$Base&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/CustomProperties/=FileName/@EntryIndexedValue">Model</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Description/@EntryValue">Reactive User Control</s:String>
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=NAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	
+	
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=NAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/InitialSection/@EntryValue">91461E942B5F92428B03CFDB7809E969</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$View.xaml.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/SectionPlain/Text/@EntryValue">using System.Windows.Controls;&#xD;
+using ReactiveUI;&#xD;
+&#xD;
+namespace $namespace$ &#xD;
+{&#xD;
+    public class $NAME$ViewBase : ReactiveUserControl&lt;$NAME$ViewModel&gt;&#xD;
+    {&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Interaction logic for WeinCadFolderCollectionView.xaml&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public partial class $NAME$View : $NAME$ViewBase&#xD;
+    {&#xD;
+        public $NAME$View()&#xD;
+        {&#xD;
+            InitializeComponent();&#xD;
+        }&#xD;
+&#xD;
+   }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C39935F5AF9BE14FB76EC698124AD538/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C39935F5AF9BE14FB76EC698124AD538/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$ViewModel.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C39935F5AF9BE14FB76EC698124AD538/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C39935F5AF9BE14FB76EC698124AD538/Order/@EntryValue">2</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C39935F5AF9BE14FB76EC698124AD538/SectionPlain/Text/@EntryValue">using ReactiveUI;&#xD;
+using System;&#xD;
+&#xD;
+namespace $namespace$ {&#xD;
+	public class $NAME$ViewModel : ReactiveObject {&#xD;
+&#xD;
+		private $NAME$ _Model;&#xD;
+		public $NAME$ Model { &#xD;
+			get { return _Model;}&#xD;
+			set { this.RaiseAndSetIfChanged(ref _Model, value); }&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C8C1615DD2CFDA48A041BB7699C7E420/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C8C1615DD2CFDA48A041BB7699C7E420/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$View.xaml" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C8C1615DD2CFDA48A041BB7699C7E420/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C8C1615DD2CFDA48A041BB7699C7E420/Order/@EntryValue">1</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=C8C1615DD2CFDA48A041BB7699C7E420/SectionPlain/Text/@EntryValue">&lt;c:$NAME$ViewBase x:Class="$namespace$.$NAME$View"&#xD;
+			   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"&#xD;
+			   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&#xD;
+			   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"&#xD;
+			   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"&#xD;
+			   xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"&#xD;
+			   xmlns:c="clr-namespace:$namespace$"&#xD;
+			   mc:Ignorable="d"&#xD;
+			   d:DataContext="{d:DesignInstance c:$NAME$ViewModel, d:IsDesignTimeCreatable=True}"&gt;&#xD;
+&#xD;
+    &lt;c:$NAME$ViewBase.Resources&gt;&#xD;
+        &lt;ResourceDictionary&gt;&#xD;
+            &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
+                &lt;ResourceDictionary Source="../../Themes/Generic.xaml" /&gt;&#xD;
+            &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
+        &lt;/ResourceDictionary&gt;&#xD;
+    &lt;/c:$NAME$ViewBase.Resources&gt;&#xD;
+&#xD;
+    &lt;Grid&gt;&#xD;
+    &lt;/Grid&gt;&#xD;
+&#xD;
+&lt;/c:$NAME$ViewBase&gt;&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Text/@EntryValue">using System;&#xD;
+&#xD;
+namespace $namespace$ {&#xD;
+	public class $NAME$ {&#xD;
+		public string Name { get; private set;}&#xD;
+		public $NAME$(string name){&#xD;
+		   Name = name;&#xD;
+		}&#xD;
+	}&#xD;
+}</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C325CDAF261B1D4ABAE5488831E5EA7F/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C325CDAF261B1D4ABAE5488831E5EA7F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C325CDAF261B1D4ABAE5488831E5EA7F/Description/@EntryValue">Edit unsigned integer</s:String>
