@@ -159,11 +159,12 @@ public $type$ $name$&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Categories/=Imported_002005_002E08_002E2015/@EntryIndexedValue">Imported 05.08.2015</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Categories/=Imported_00206_002F2_002F2015/@EntryIndexedValue">Imported 6/2/2015</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Categories/=Imported_00207_002F6_002F2015/@EntryIndexedValue">Imported 7/6/2015</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=FileName/@EntryIndexedValue">PluginDocument</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Description/@EntryValue">WeinCadDocument Plugin</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=documentClass/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=documentClass/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
@@ -327,9 +328,7 @@ namespace $namespace$&#xD;
         ///&#xD;
         internal static void Setup(WeinCadPluginBase plugin)&#xD;
         {&#xD;
-            plugin.BindFactoryToFactoryContainer&lt;$documentClass$Factory, SomeProjectNodeFactoryGroup&gt;();&#xD;
-            //plugin.BindFactoryToProjectNode&lt;$documentClass$Factory, SomeDocument&gt;();&#xD;
-            //plugin.BindFactoryToProjectRoot&lt;$documentClass$Factory&gt;();&#xD;
+            plugin.BindContextMenuToContextMenu&lt;$documentClass$ContextMenuModel, SomeProjectNodeFactoryGroup&gt;();&#xD;
 &#xD;
             plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
                 .To&lt;$documentClass$PropertiesView&gt;()&#xD;
@@ -373,11 +372,17 @@ namespace $namespace$&#xD;
     public class ArtifactData {&#xD;
     }&#xD;
 &#xD;
-    public class $documentClass$Factory :&#xD;
-        StandardProjectNodeFactory&lt;$documentClass$, $documentClass$Factory&gt;&#xD;
+    public class $documentClass$ContextMenuModel:&#xD;
+        WeinCadDocumentFactoryContextMenuModel&lt;$documentClass$, $documentClass$ContextMenuModel&gt;&#xD;
     {&#xD;
         public $documentClass$Factory(IIOService io, INavigationController nav, IResolutionRoot kernel)&#xD;
-            : base(io, nav, kernel, Properties.Resources.Instance.$documentClass$, 0)&#xD;
+            : base&#xD;
+			( io&#xD;
+			, nav&#xD;
+			, kernel&#xD;
+			, Properties.Resources.Instance.$documentClass$&#xD;
+			, 0&#xD;
+			, Enumerable.Empty&lt;IWeinCadDocumentFactoryContextMenuModel&gt;() )&#xD;
         {&#xD;
         }&#xD;
     }&#xD;
