@@ -185,6 +185,9 @@ public $type$ $name$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=projectroot/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=projectroot/InitialSection/@EntryValue">D114FAE706646A4CA47171139D911ED0</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=projectroot/Order/@EntryValue">6</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=SomeParentContextMenuModel/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=SomeParentContextMenuModel/Order/@EntryValue">5</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Reformat/@EntryValue">True</s:Boolean>
@@ -290,7 +293,7 @@ namespace $namespace$&#xD;
     &lt;UserControl.Resources&gt;&#xD;
         &lt;ResourceDictionary&gt;&#xD;
             &lt;ResourceDictionary.MergedDictionaries&gt;&#xD;
-                &lt;ResourceDictionary Source="Themes/Generic.xaml" /&gt;&#xD;
+                &lt;ResourceDictionary Source="$projectroot$/Themes/Generic.xaml" /&gt;&#xD;
             &lt;/ResourceDictionary.MergedDictionaries&gt;&#xD;
         &lt;/ResourceDictionary&gt;&#xD;
     &lt;/UserControl.Resources&gt;&#xD;
@@ -363,7 +366,7 @@ namespace $namespace$&#xD;
         public $documentClass$(IIOService io, INavigationController n, JsonSerializerSettings jss, IEnumerable&lt;IWeinCadDocumentContextMenuModel&gt; menus) &#xD;
 		: base(io, n, jss, menus)&#xD;
         {&#xD;
-            ConfigurationData = null;&#xD;
+            ConfigurationData =  $documentClass$Configuration.Default;&#xD;
         }&#xD;
 &#xD;
         public override void Activate()&#xD;
