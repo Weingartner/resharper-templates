@@ -305,7 +305,7 @@ namespace $namespace$&#xD;
                 NavigationController="{Binding NavigationController}"&#xD;
                 Link="{ext:ImmutableBinding ConfigurationData.Resource}"&#xD;
                 WeinCadDocument="{Binding}"&#xD;
-                ResourceType="{x:Type pump:ISomeResource}"&#xD;
+                ResourceType="{x:Type $ISomeResource$}"&#xD;
                 /&gt;&#xD;
         &lt;/c:Row&gt;&#xD;
         &lt;c:Row &gt;&#xD;
