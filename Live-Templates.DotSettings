@@ -66,6 +66,8 @@ public $type$ $name$ &#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3B0A54BA0F814343B479A4016E22E18B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
@@ -169,17 +171,29 @@ public $type$ $name$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=documentClass/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=documentClass/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=documentClass/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=Feature/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=Feature/Expression/@EntryValue">completeSmart()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=Feature/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=guid/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=guid/Expression/@EntryValue">guid()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=guid/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=ISomeResource/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=ISomeResource/Expression/@EntryValue">completeSmart()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=ISomeResource/Order/@EntryValue">4</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=FA92D0521C5B5842913DF0B0AFC36A28/Type/@EntryValue">InAnyProject</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Section/=10ED863DBF7DC0459525DC076607B674/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Section/=10ED863DBF7DC0459525DC076607B674/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$PropertiesView.xaml.cs" /&gt;</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Section/=10ED863DBF7DC0459525DC076607B674/LocationSelectorName/@EntryValue">manual</s:String>
@@ -328,7 +342,8 @@ namespace $namespace$&#xD;
         ///&#xD;
         internal static void Setup(WeinCadPluginBase plugin)&#xD;
         {&#xD;
-            plugin.BindContextMenuToContextMenu&lt;$documentClass$ContextMenuModel, SomeProjectNodeFactoryGroup&gt;();&#xD;
+            plugin.BindContextMenuToContextMenu&lt;$documentClass$ContextMenuModel, SomeProjectNodeFactoryGroup&gt;&#xD;
+				(Weingartner.Utils.Feature.$Feature$);&#xD;
 &#xD;
             plugin.Bind&lt;IViewFor&lt;$documentClass$&gt;&gt;()&#xD;
                 .To&lt;$documentClass$PropertiesView&gt;()&#xD;
@@ -340,7 +355,8 @@ namespace $namespace$&#xD;
                 .InSingletonScope()&#xD;
                 .Named("Details");&#xD;
         }&#xD;
-        public $documentClass$(IIOService io, INavigationController n) : base(io, n)&#xD;
+        public $documentClass$(IIOService io, INavigationController n, JsonSerializerSettings jss, IEnumerable&lt;IWeinCadDocumentContextMenuModel&gt; menus) &#xD;
+		: base(io, n, jss, menus)&#xD;
         {&#xD;
             ConfigurationData = null;&#xD;
         }&#xD;
@@ -348,13 +364,13 @@ namespace $namespace$&#xD;
         public override void Activate()&#xD;
         {&#xD;
             LazyTask&#xD;
-                .CombineLatest( WhenAnyProjectLazyTask&lt;ISomeResource&gt;(d=&gt;d.Resource) , BuildAsync )&#xD;
+                .CombineLatest( WhenAnyProjectLazyTask&lt;$ISomeResource$&gt;(d=&gt;d.Resource) , BuildAsync )&#xD;
                 .PublishArtifactTask(this);&#xD;
 &#xD;
         }&#xD;
 &#xD;
         private Task&lt;ArtifactData&gt; BuildAsync&#xD;
-        ( ISomeResource resource&#xD;
+        ( $ISomeResource$ resource&#xD;
         , CancellationToken token&#xD;
         )&#xD;
         {&#xD;
@@ -375,10 +391,9 @@ namespace $namespace$&#xD;
     public class $documentClass$ContextMenuModel:&#xD;
         WeinCadDocumentFactoryContextMenuModel&lt;$documentClass$, $documentClass$ContextMenuModel&gt;&#xD;
     {&#xD;
-        public $documentClass$Factory(IIOService io, INavigationController nav, IResolutionRoot kernel)&#xD;
+        public $documentClass$ContextMenuModel(IIOService io, IResolutionRoot kernel)&#xD;
             : base&#xD;
 			( io&#xD;
-			, nav&#xD;
 			, kernel&#xD;
 			, Properties.Resources.Instance.$documentClass$&#xD;
 			, 0&#xD;
@@ -406,6 +421,51 @@ namespace $namespace$&#xD;
     }&#xD;
 }&#xD;
 </s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=723E3393EDE1854BABA9BC9FA3A1F270/@KeyIndexDefined">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=723E3393EDE1854BABA9BC9FA3A1F270/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=723E3393EDE1854BABA9BC9FA3A1F270/Description/@EntryValue">Quick View</s:String>
@@ -575,6 +635,8 @@ namespace $namespace$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/InitialSection/@EntryValue">91461E942B5F92428B03CFDB7809E969</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Field/=namespace/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E7CFFE18D9B99549AE3902238EDA927F/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E7CFFE18D9B99549AE3902238EDA927F/Type/@EntryValue">InXamlCSharpProject</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BFBB849AE9658E49A0086B5C8F187052/Section/=91461E942B5F92428B03CFDB7809E969/@KeyIndexDefined">True</s:Boolean>
@@ -689,6 +751,16 @@ namespace $namespace$ {&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0AD6FB29C16743B3D8BA998D7CEF3F/Text/@EntryValue">var $s$ = Stopwatch.StartNew();&#xD;
 $SELECTION$&#xD;
 Console.WriteLine("$TEXT$ took {0}", $s$.ElapsedMilliseconds);</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
