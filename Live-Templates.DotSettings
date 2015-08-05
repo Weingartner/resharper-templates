@@ -185,6 +185,8 @@ public $type$ $name$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Expression/@EntryValue">fileDefaultNamespace()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=namespace/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=SomeParentContextMenuModel/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Field/=SomeParentContextMenuModel/Order/@EntryValue">5</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=63E2E70ECF98544B890245B75224C75F/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
@@ -343,7 +345,7 @@ namespace $namespace$&#xD;
         ///&#xD;
         internal static void Setup(WeinCadPluginBase plugin)&#xD;
         {&#xD;
-            plugin.BindContextMenuToContextMenu&lt;$documentClass$ContextMenuModel, SomeProjectNodeFactoryGroup&gt;&#xD;
+            plugin.BindContextMenuToContextMenu&lt;$documentClass$ContextMenuModel, $SomeParentContextMenuModel$&gt;&#xD;
 				(Weingartner.Utils.Feature.$Feature$);&#xD;
 &#xD;
             plugin.BindWeinCadDocumentTypes(Feature.$Feature$, typeof($documentClass$));&#xD;
@@ -358,7 +360,7 @@ namespace $namespace$&#xD;
                 .InSingletonScope()&#xD;
                 .Named("Details");&#xD;
         }&#xD;
-        public $documentClass$(IIOService io, INavigationController n, JsonSerializerSettings jss, IEnumerable&lt;IContextMenuModel&gt; menus) &#xD;
+        public $documentClass$(IIOService io, INavigationController n, JsonSerializerSettings jss, IEnumerable&lt;IWeinCadDocumentContextMenuModel&gt; menus) &#xD;
 		: base(io, n, jss, menus)&#xD;
         {&#xD;
             ConfigurationData = null;&#xD;
