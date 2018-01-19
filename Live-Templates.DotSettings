@@ -1221,4 +1221,5 @@ public $type$ $Name$ { get { return ($type$)GetValue($Name$Property); } set { Se
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9C230032D9D9B4692468B60CE71B6D4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F9C230032D9D9B4692468B60CE71B6D4/Text/@EntryValue">public $type$ $name$ {get;} = $value$&#xD;
 </s:String></wpf:ResourceDictionary>
+
 	
